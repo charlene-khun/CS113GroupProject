@@ -155,7 +155,7 @@ void checkSurround(int &c1, int &c2, int &c3)
   {
     c2 = 1;
   }
-  if(LT_R) //if the line is in the middle then set c3 = 1
+  if(LT_R) //if the line is in the right then set c3 = 1
   {
     c3 = 1;
   }
