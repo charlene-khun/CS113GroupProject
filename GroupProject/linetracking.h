@@ -117,6 +117,24 @@ Function Name: <setup>
 void setup(){
   Serial.begin(9600); 
 }
+
+/*******************************************************
+Function Name: <turn180>
+ Purpose: <purpose of the function is to make the car turn 180 degrees>
+ Parameter: int &c1, int &c2, int &c3  //These vales are passed by reference, so that when c1 gets 1 then the loop will stop
+ Return: < Void function, No return value >  
+*******************************************************/
+void turn180(int &c1, int &c2, int &c3)
+{
+  while(c1 != 1)
+  {
+    right();
+    checkSurround(c1,c2,c3);
+  }
+  
+}
+
+
 //checks surroundings on the line
 /*******************************************************
 Function Name: <checkSurround>
