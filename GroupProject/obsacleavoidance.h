@@ -10,7 +10,7 @@ int Trig = A5;
 #define IN3 9
 #define IN4 11
 #define ENA 6
-#define carSpeed 150
+#define carSpeed 176
 
 /*******************************************************
 * Function Name: <forward>
